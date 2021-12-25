@@ -1,0 +1,70 @@
+[10:21:26.114 Verbose] - BuildManager - Some of the paths are absolute. This may prevent Live Unit Testing from building to the correct location.
+[10:21:26.114 Verbose] - BuildManager - Property BaseOutputPath evaluated to 'bin\' via:
+BaseOutputPath: 'bin\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:153
+[10:21:26.115 Verbose] - BuildManager - Property BaseIntermediateOutputPath evaluated to 'obj\' via:
+BaseIntermediateOutputPath: 'obj\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Microsoft.Common.props:47
+[10:21:26.115 Verbose] - BuildManager - Property IntermediateOutputPath evaluated to 'Debug\' via:
+IntermediateOutputPath: '$(IntDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:38
+  IntDir: '$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:20
+    Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121
+[10:21:26.115 Verbose] - BuildManager - Property OutputPath evaluated to 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\Debug\' via:
+OutputPath: '$(OutDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:29
+  OutDir: '$(SolutionDir)$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:22
+    SolutionDir: '$(ProjectDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:206
+      ProjectDir: '$(MSBuildProjectDirectory)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:203
+        MSBuildProjectDirectory: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll'
+    Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121
+[10:21:26.115 Verbose] - BuildManager - Property OutDir evaluated to 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\Debug\' via:
+OutDir: '$(SolutionDir)$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:22
+  SolutionDir: '$(ProjectDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:206
+    ProjectDir: '$(MSBuildProjectDirectory)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:203
+      MSBuildProjectDirectory: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll'
+  Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121
+[10:21:26.285 Verbose] - BuildManager - C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.cpp(42,1): error C1010: unexpected end of file while looking for precompiled header. Did you forget to add '#include "pch.h"' to your source?
+[10:21:26.409 Verbose] - BuildManager - Some of the file paths defined in the csproj under the Live Unit Testing build path are missing. Verify whether these files should be present under the Live Unit Testing build path and if necessary update the csproj definition to look these files up in a different place.
+[10:21:26.410 Verbose] - BuildManager - Item _OutputPathItem 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' evaluated via:
+_OutputPathItem: '$(OutDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:310
+  OutDir: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' @ C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.vcxproj:0
+[10:21:26.410 Verbose] - BuildManager - Item AppConfigFileDestination 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\ce103-hw4-cpp-dll.dll.config' evaluated via:
+AppConfigFileDestination: '$(OutDir)$(TargetFileName).config' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:338
+  OutDir: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' @ C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.vcxproj:0
+  TargetFileName: '$([System.IO.Path]::GetFileName('$(TargetPath)'))' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:33
+    TargetPath: '$([MSBuild]::NormalizePath('$(ProjectDir)', '$(OutDir)$(TargetName)$(TargetExt)'))' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:31
+      ProjectDir: '$(MSBuildProjectDirectory)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:203
+        MSBuildProjectDirectory: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll'
+      OutDir: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' @ C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.vcxproj:0
+      TargetName: '$(ProjectName)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props:180
+        ProjectName: '$(MSBuildProjectName)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:198
+          MSBuildProjectName: 'ce103-hw4-cpp-dll'
+      TargetExt: '.dll' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Common.props:37
+[10:21:26.410 Verbose] - BuildManager - Item _ApplicationManifestFinal 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\Native.ce103-hw4-cpp-dll.manifest' evaluated via:
+_ApplicationManifestFinal: '$(OutDir)$(_DeploymentTargetApplicationManifestFileName)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:442
+  OutDir: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' @ C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.vcxproj:0
+  _DeploymentTargetApplicationManifestFileName: 'Native.$(AssemblyName).manifest' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:264
+    AssemblyName: '$(MSBuildProjectName)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:238
+      MSBuildProjectName: 'ce103-hw4-cpp-dll'
+[10:21:26.410 Verbose] - BuildManager - Item GeneralDirsToMake 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' evaluated via:
+GeneralDirsToMake: '$(OutDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets:332
+  OutDir: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-cpp-dll\Debug\' @ C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.vcxproj:0
+[10:21:26.452 Verbose] - BuildManager - Some of the paths are absolute. This may prevent Live Unit Testing from building to the correct location.
+[10:21:26.452 Verbose] - BuildManager - Property BaseOutputPath evaluated to 'bin\' via:
+BaseOutputPath: 'bin\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets:153
+[10:21:26.452 Verbose] - BuildManager - Property BaseIntermediateOutputPath evaluated to 'obj\' via:
+BaseIntermediateOutputPath: 'obj\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Current\Microsoft.Common.props:47
+[10:21:26.452 Verbose] - BuildManager - Property IntermediateOutputPath evaluated to 'Debug\' via:
+IntermediateOutputPath: '$(IntDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:38
+  IntDir: '$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:20
+    Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121
+[10:21:26.455 Verbose] - BuildManager - Property OutputPath evaluated to 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\Debug\' via:
+OutputPath: '$(OutDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets:29
+  OutDir: '$(SolutionDir)$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:22
+    SolutionDir: '$(ProjectDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:206
+      ProjectDir: '$(MSBuildProjectDirectory)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:203
+        MSBuildProjectDirectory: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll'
+    Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121
+[10:21:26.455 Verbose] - BuildManager - Property OutDir evaluated to 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\Debug\' via:
+OutDir: '$(SolutionDir)$(Configuration)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.MSVC.Toolset.Common.props:22
+  SolutionDir: '$(ProjectDir)' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:206
+    ProjectDir: '$(MSBuildProjectDirectory)\' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:203
+      MSBuildProjectDirectory: 'C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll'
+  Configuration: 'Debug' @ C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.Default.props:121

@@ -1,0 +1,9 @@
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-test\bin\Debug\Microsoft.TestPlatform.AdapterUtilities.dll
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\b\ce103-hw4-test\bin\Debug\ce103-hw4-test.dll
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\i\ce103-hw4-test\Debug\ce103-hw4-test.csproj.AssemblyReference.cache
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\i\ce103-hw4-test\Debug\ce103-hw4-test.csproj.CoreCompileInputs.cache
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\i\ce103-hw4-test\Debug\ce103-hw4-test.csproj.CopyComplete
+C:\Users\Omer\Downloads\ce103-hw4-bedirhan-ozcelik\.vs\ce103-hw4-bedirhan-ozcelik\v17\lut\0\i\ce103-hw4-test\Debug\ce103-hw4-test.dll
