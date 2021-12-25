@@ -1,0 +1,8 @@
+﻿  ce103-hw4-c-dll.c
+C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\ce103-hw4-c-dll.c(107,1): warning C4090: 'initializing': different 'const' qualifiers
+C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\ce103-hw4-c-dll.c(148,14): warning C4098: 'ce103_hex2bin': 'void' function returning a value
+C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\ce103-hw4-c-dll.c(155,20): warning C4133: '<': incompatible types - from 'int *' to 'unsigned char *'
+C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\ce103-hw4-c-dll.c(164,14): warning C4098: 'ce103_bin2hex': 'void' function returning a value
+C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\ce103-hw4-c-dll\ce103-hw4-c-dll.c(153,1): warning C4133: 'initializing': incompatible types - from 'unsigned char *' to 'int *'
+     Creating library C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\x64\Debug\ce103-hw4-c-dll.lib and object C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\x64\Debug\ce103-hw4-c-dll.exp
+  ce103-hw4-c-dll.vcxproj -> C:\Users\Lenovo\OneDrive\Masaüstü\ce103-hw4-bedirhan-ozcelik\x64\Debug\ce103-hw4-c-dll.dll
