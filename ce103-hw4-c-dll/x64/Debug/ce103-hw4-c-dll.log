@@ -1,8 +1,0 @@
-﻿  ce103-hw4-c-dll.c
-C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.c(42,1): warning C4090: 'initializing': different 'const' qualifiers
-C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.c(108,14): warning C4098: 'ce103_hex2bin': 'void' function returning a value
-C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.c(116,20): warning C4133: '<': incompatible types - from 'int *' to 'unsigned char *'
-C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.c(126,14): warning C4098: 'ce103_bin2hex': 'void' function returning a value
-C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.c(115,1): warning C4133: 'initializing': incompatible types - from 'unsigned char *' to 'int *'
-     Creating library C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-c-dll.lib and object C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-c-dll.exp
-  ce103-hw4-c-dll.vcxproj -> C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-c-dll.dll
