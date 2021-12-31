@@ -396,7 +396,7 @@ __pycache__/
 # tools/**
 # !tools/packages.config
 
-# Tabs Studio
+[O# Tabs Studio
 *.tss
 
 # Telerik's JustMock configuration file
