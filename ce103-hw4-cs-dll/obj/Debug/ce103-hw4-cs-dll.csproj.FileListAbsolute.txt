@@ -28,3 +28,9 @@ C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cs-
 C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.csproj.CoreCompileInputs.cache
 C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.dll
 C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.pdb
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\bin\Debug\ce103-hw4-cs-dll.dll
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\bin\Debug\ce103-hw4-cs-dll.pdb
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.csproj.AssemblyReference.cache
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.csproj.CoreCompileInputs.cache
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.dll
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cs-dll\obj\Debug\ce103-hw4-cs-dll.pdb

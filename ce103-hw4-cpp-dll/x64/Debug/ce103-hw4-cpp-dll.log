@@ -1,19 +1,19 @@
 ﻿  ce103-hw4-cpp-dll.cpp
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(6,28): warning C4273: 'ce103_fibonacciNumber': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(39,28): message : see previous definition of 'ce103_fibonacciNumber'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(8,30): warning C4273: 'ce103_strrev': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(52,30): message : see previous definition of 'ce103_strrev'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(10,28): warning C4273: 'ce103_strlen': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(73,28): message : see previous definition of 'ce103_strlen'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(12,30): warning C4273: 'ce103_strcat': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(95,30): message : see previous definition of 'ce103_strcat'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(14,28): warning C4273: 'ce103_strcmp': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(118,28): message : see previous definition of 'ce103_strcmp'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(16,30): warning C4273: 'ce103_strcpy': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(140,30): message : see previous definition of 'ce103_strcpy'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(18,29): warning C4273: 'ce103_hex2bin': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(155,29): message : see previous definition of 'ce103_hex2bin'
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(20,29): warning C4273: 'ce103_bin2hex': inconsistent dll linkage
-C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(168,29): message : see previous definition of 'ce103_bin2hex'
-     Creating library C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.lib and object C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.exp
-  ce103-hw4-cpp-dll.vcxproj -> C:\Users\Lenova\Desktop\ce103-HW4-rabia-süme\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.dll
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(6,28): warning C4273: 'ce103_fibonacciNumber': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(39,28): message : see previous definition of 'ce103_fibonacciNumber'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(8,30): warning C4273: 'ce103_strrev': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(52,30): message : see previous definition of 'ce103_strrev'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(10,28): warning C4273: 'ce103_strlen': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(73,28): message : see previous definition of 'ce103_strlen'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(12,30): warning C4273: 'ce103_strcat': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(95,30): message : see previous definition of 'ce103_strcat'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(14,28): warning C4273: 'ce103_strcmp': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(118,28): message : see previous definition of 'ce103_strcmp'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(16,30): warning C4273: 'ce103_strcpy': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(140,30): message : see previous definition of 'ce103_strcpy'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(18,29): warning C4273: 'ce103_hex2bin': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(155,29): message : see previous definition of 'ce103_hex2bin'
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-cpp-dll\ce103-hw4-cpp-dll.h(20,29): warning C4273: 'ce103_bin2hex': inconsistent dll linkage
+C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\ce103-hw4-c-dll\ce103-hw4-c-dll.h(168,29): message : see previous definition of 'ce103_bin2hex'
+     Creating library C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.lib and object C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.exp
+  ce103-hw4-cpp-dll.vcxproj -> C:\Users\Lenova\Desktop\ce103-hw4-rabia-sume\x64\Debug\ce103-hw4-cpp-dll.dll
