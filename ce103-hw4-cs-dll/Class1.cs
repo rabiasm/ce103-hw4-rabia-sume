@@ -15,8 +15,8 @@ namespace ce103_hw4_cs_dll
 
 		 /**
 		* @file ce103-hw4-cs-dll
-		* @author Bedirhan OZCELIK
-		* @date 03 October 2021
+		* @author Rabia SUME
+		* @date 31 December 2021
 		*
 		* @brief <b> HW-4 Functions </b>
 		*
@@ -40,32 +40,31 @@ namespace ce103_hw4_cs_dll
 		public int ce103_fibonacciNumber_cs(int fiIndex)
 		{
 			fiIndex = fiIndex - 1;
-			//First, let's define our integers.
+			
 			int t1 = 0, t2 = 1, nextTerm = 0;
 			int returnNumber;
-			//This if statement implicitly checks "is not 0", so we reverse that to mean "is 0".
+		
 			if (fiIndex <= 0)
 			{
-				// if index is lower than 1 function will return 0
+				
 				return 0;
 			}
-			//I used "for" because there are repetitive processes here.
-			//In this part, if i=1 and i<= fiIndex, the following is done.
+			
 			for (int i = 1; i <= fiIndex; ++i)
 			{
 				t1 = t2;
 				t2 = nextTerm;
 				nextTerm = t1 + t2;
 				returnNumber = nextTerm;
-				//returnnumber or if the nextTerm is less than 0
+				
 				if (returnNumber < 0)
 				{
-					//if index is higher than 46 function will return -2 
+					
 					return -2;
 				}
 			}
 			returnNumber = nextTerm;
-			//fiIndex' th fibonacci number
+			
 			return returnNumber;
 		}
 
@@ -82,15 +81,15 @@ namespace ce103_hw4_cs_dll
 	    **/
 		public string ce103_strrev_cs(string fiStr)
 		{
-			//Let i and j be our variables. In this function, we will take the inverse of the string we give.
+			
 			char[] chars = new char[ce103_strlen_cs(fiStr)];
-			//Our variable i will start at zero and increment its value by one each time our for loop returns.
+			
 			for (int i = 0, j = ce103_strlen_cs(fiStr) - 1; i <= j; i++, j--)
 			{
 				chars[i] = fiStr[j];
 				chars[j] = fiStr[i];
 			}
-			//return value that gives us the inverse of the string we entered
+			
 			return new string(chars);
 		}
 
@@ -106,15 +105,16 @@ namespace ce103_hw4_cs_dll
 	    **/
 		public int ce103_strlen_cs(string fiStr)
 		{
-			//Returns the length of the string we entered
-			//Let's have a counter and it starts at 0.
+			
+			
 			int count = 0;
-			//Our count counter calculates the length of the string we entered into our loop and returns its length to us.
+			
+		
 			foreach (char chr in fiStr)
 			{
 				count++;
 			}
-			//Return value of length found
+			
 			return count;
 		}
 
@@ -134,8 +134,8 @@ namespace ce103_hw4_cs_dll
 	    **/
 		public string ce103_strcat_cs(string fiDest, string fiSrc)
         {
-			//We give one of our strings "fiDest" and the other "fiSrc", that is, a random string.
-			//The sum of these strings gives us the combined return value of the strings.
+			
+			
 			return fiDest +fiSrc;
 		}
 
@@ -154,13 +154,13 @@ namespace ce103_hw4_cs_dll
 	    **/
 		public int ce103_strcmp_cs(string fiLhs, string fiRhs)
         {
-			//Let's say we have two strings.
-			//If they are equal, our return value will be equal to 0.
+			
+			
 			if (fiLhs == fiRhs)
 			{
 				return 0;
 			}
-			//If the lengths of the strings we entered are different from each other, the return value of the function will not be 0.
+			
 			else if (ce103_strlen_cs(fiLhs) < (ce103_strlen_cs(fiRhs)))
 			{
 				return -1;
@@ -186,8 +186,8 @@ namespace ce103_hw4_cs_dll
 	    **/
 		public string ce103_strcpy_cs(string foDestination, string fiSource)
         {
-			//this function copies the string in the string pointed to by the source.
-			//If the copied string and the other string are equal, the function returns the copied string to us.
+			
+			
 			foDestination = fiSource;
 			return foDestination;
 		}
@@ -229,30 +229,30 @@ namespace ce103_hw4_cs_dll
         **/
 		public void ce103_hex2bin_cs(string fiHex, int fiHexLen, byte[] foBin)
 		{
-			//char[] foBinArr = new char[fiHexLen / 2];
+			
 
 			int[] count = { 0, 0 };
 			for (int x = 0; x < fiHexLen; x += 2)
-			{   // array for assigning foBin elements
-				// store two character from fiHex func
+			{   
+				
 				char[] temp = new char[2];
-				// hexint stores sum of two ascii values generated from hex base
+				
 				int hexint = 0;
 				for (int y = 0; y < 2; y++)
-				{  // for loop for calculating sum of ascii values
+				{  
 					temp[y] = (char)fiHex[x + y];
 					if (y == 0)
-					{  // if j == 0 meaning first element of temp
-					   // if and else if code snippet is taken from below website and fixed
+					{  
+					  
 						if (temp[y] >= '0' && temp[y] <= '9')
-						{  // bounds
+						{  
 							count[y] = temp[y] - '0';
-							// multiply by 16 because of 16^1*hex digit
+							
 							count[y] *= 16;
 						}
 						else if (temp[y] >= 'A' && temp[y] <= 'F')
 						{
-							// take difference between temp and 'A' then plus 10
+							
 							count[y] = temp[y] - 'A' + 10;
 							count[y] *= 16;
 						}
@@ -261,7 +261,7 @@ namespace ce103_hw4_cs_dll
 					{
 						if (temp[y] >= '0' && temp[y] <= '9')
 						{
-							// we're not multiplying by 16 because it's 16^0 digit
+							
 							count[y] = temp[y] - '0';
 						}
 						else if (temp[y] >= 'A' && temp[y] <= 'F')
@@ -269,10 +269,10 @@ namespace ce103_hw4_cs_dll
 							count[y] = temp[y] - 'A' + 10;
 						}
 					}
-					// get two digit value's sum and assign it to hexint
+					
 					hexint += count[y];
 				}
-				// assigning summed values to foBin
+				
 				foBin[x / 2] = (byte)hexint;
 			}
 		}
